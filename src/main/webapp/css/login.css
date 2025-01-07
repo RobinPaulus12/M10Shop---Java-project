@@ -1,0 +1,42 @@
+/* Centrage du conteneur */
+.form-container {
+    display: flex;
+    flex-direction: column; /* Empile les éléments verticalement */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    min-height: 100vh; /* Occupe toute la hauteur de l'écran */
+    background-color: #f8f9fa; /* Fond gris clair */
+    padding: 20px; /* Espace autour du contenu */
+}
+
+/* Largeur des champs de saisie */
+.form-control {
+    width: 300px; /* Fixe la largeur des champs */
+    height: 40px; /* Hauteur uniforme */
+}
+
+/* Espacement entre les champs */
+.form-group {
+    margin-bottom: 10px; /* Réduction de l'espacement entre les champs */
+    font-weight: bold;
+}
+
+/* Bouton Connexion : Réduction de l'espacement avec le champ mot de passe */
+.form-container button[type="submit"] {
+    margin-top: 0px; /* Réduction de l'espace entre le mot de passe et le bouton */
+}
+
+/* Style pour le texte et le bouton "Nouveau client ?" */
+.new-customer {
+    margin-top: 20px; /* Espacement légèrement augmenté au-dessus de "Nouveau client ?" */
+}
+
+.new-customer .btn-secondary {
+    margin-top: 5px; /* Espacement interne ajusté pour le bouton */
+}
+
+/* Espacement en bas du titre h2 */
+.form-container h2 {
+    margin-bottom: 35px;
+}
+

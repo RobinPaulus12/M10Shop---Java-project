@@ -1,0 +1,163 @@
+header button{
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+header div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Conteneur principal avec un rectangle compact */
+.user-container {
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    padding: 5px 8px; /* Réduction des marges internes */
+    background-color: #f8f9fa; /* Fond légèrement gris */
+    border-radius: 6px; /* Coins arrondis légèrement */
+    width: 160px; /* Largeur réduite */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Effet d'ombre léger */
+    font-size: 0.85rem; /* Taille globale plus petite */
+    margin-left: 15px;
+}
+
+/* Texte de bienvenue */
+.user-greeting {
+    display: flex;
+    flex-direction: row; /* Aligne "Bonjour," et le nom sur la même ligne */
+    font-size: 0.85rem; /* Taille de police réduite */
+    color: black; /* Couleur principale */
+    margin-bottom: 6px; /* Réduction de l'espacement */
+}
+
+/* "Bonjour," */
+.greeting-text {
+    margin-right: 3px; /* Espacement réduit entre "Bonjour," et le nom */
+}
+
+/* Nom de l'utilisateur */
+.user-name {
+    font-weight: bold; /* Met le nom en gras */
+}
+
+/* Style pour "Mon compte" */
+.account-link {
+    display: inline-block;
+    padding: 4px 6px; /* Réduction des marges internes */
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: white; /* Texte blanc */
+    text-decoration: none; /* Supprime le soulignement */
+    border-radius: 4px; /* Coins arrondis légèrement */
+    text-align: center;
+    width: 100%; /* Occupe toute la largeur du conteneur */
+    font-size: 0.8rem; /* Taille réduite pour "Mon compte" */
+}
+
+/* Effet au survol */
+.account-link:hover {
+    background-color: #0056b3; /* Change la couleur de fond au survol */
+    color: white; /* Assure que le texte reste blanc au survol */
+    text-decoration: none; /* Empêche le soulignement au survol */
+}
+
+
+/* Style pour le logo */
+.navbar-brand img.logo {
+    max-height: 50px; /* Ajustez la hauteur maximale du logo */
+    max-width: 100%; /* Assurez une largeur proportionnelle */
+    object-fit: contain; /* Maintient les proportions du logo */
+}
+
+/* Style pour la barre de navigation */
+.navbar {
+    background-color: #232222; /* Couleur gris clair */
+    padding: 10px 15px; /* Espacement interne pour rendre la barre plus espacée */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Légère ombre */
+}
+
+/* Liens dans la barre de navigation */
+.navbar .nav-link {
+    color: #333; /* Couleur du texte */
+    font-size: 14px; /* Taille de la police */
+    font-weight: 500; /* Poids intermédiaire pour le texte */
+    margin-right: 20px; /* Espacement entre les liens */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+/* Survol des liens */
+.navbar .nav-link:hover {
+    color: #007bff; /* Couleur bleue au survol */
+}
+
+/* Logo dans la barre de navigation */
+.navbar-brand img.logo {
+    max-height: 50px; /* Ajustez la hauteur maximale du logo */
+    max-width: auto; /* Ajustez la largeur proportionnelle */
+    object-fit: contain; /* Maintient les proportions du logo */
+}
+
+/* Style des boutons dans la barre de navigation */
+.navbar button {
+    background: none; /* Pas de fond */
+    border: none; /* Pas de bordure */
+    color: #333; /* Couleur des icônes */
+    padding: 8px; /* Espacement interne */
+    cursor: pointer; /* Pointeur de clic */
+}
+
+/* Boutons au survol */
+.navbar button:hover {
+    color: #007bff; /* Bleu au survol */
+}
+
+.language-switcher .language-btn {
+    padding-right: 6px; /* Réduit l'espace à droite */
+    gap: 4px; /* Ajuste l'espacement entre le logo et le triangle */
+    display: flex;
+    align-items: center;
+}
+
+
+.language-switcher .language-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.language-switcher .dropdown-menu {
+    min-width: 120px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 100%; /* Positionne la liste sous le bouton */
+    left: 0;
+    margin-top: 4px; /* Ajoute un léger espace entre le bouton et le menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effet d'ombre pour le dropdown */
+    z-index: 1050; /* S'assure que le menu reste au-dessus des autres éléments */
+}
+
+
+.language-switcher .dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+.language-switcher .dropdown-item .language-icon {
+    margin-right: 8px;
+    width: 20px;
+    height: auto;
+}
+/* Bouton About Us */
+.btn-light {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.btn-primary i {
+    font-size: 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    padding: 15px 0;  /* Augmenter le padding interne */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;  /* Augmenter la hauteur du footer */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+footer img {
+    height: 25px;  /* Agrandir légèrement le logo PayPal */
+    margin-left: -2%;
+}
+
+footer a.btn-light {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+footer span.text-muted {
+    font-size: 16px;  /* Augmenter légèrement la taille du texte */
+}

@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  servlet:
+      contextPath: /M10Shop
+spring:
+  datasource:
+    password: javaProject_
+    url: jdbc:mysql://localhost:3306/javaprojectb3?user=root&serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate.jdbc.time_zone: UTC # Synchronisation Hibernate avec UTC
+  jackson:
+    time-zone: UTC # Définit le fuseau horaire pour la sérialisation/désérialisation

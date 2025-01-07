@@ -1,0 +1,92 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.account-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 40px;
+    gap: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    border-bottom: 1px solid #ddd; /* Ajoute un padding autour pour les bordures externes */
+}
+
+/* Contenu principal */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd; /* Ajoute une bordure fine tout autour */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center; /* Centrer le titre */
+    border-bottom: 1px solid #ddd; /* Ligne fine sous le titre */
+    padding-bottom: 10px;
+}
+
+/* Cartes de commandes */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Évite les débordements */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Bouton "Voir les détails" */
+.card-title a.btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card-title a.btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Informations de commande */
+.card-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: 150px;
+}
